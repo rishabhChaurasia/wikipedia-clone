@@ -1,0 +1,8 @@
+.toolsMenu .css-10hburv-MuiTypography-root {
+  line-height: 0;
+}
+
+.toolsMenu .scroll-toolMenu {
+  overflow-y: auto;
+  height: 80vh;
+}

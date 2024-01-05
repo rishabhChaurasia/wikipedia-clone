@@ -1,0 +1,105 @@
+header {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+header .menu {
+  margin-left: 3rem;
+}
+
+header .logo {
+  margin-left: 1.3rem;
+  cursor: pointer;
+}
+
+header .logo-name {
+  display: grid;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+header .logo-name :nth-child(2) {
+  margin-top: 5px;
+}
+
+header .search {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid #b1b3b5;
+  margin-left: 4.1rem;
+  padding: 3px 10px;
+  width: 24rem;
+}
+
+header .search input {
+  border: none;
+  outline: none;
+  width: 20rem;
+}
+
+header .search input::placeholder {
+  font-size: 14px;
+}
+
+header button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f0f10;
+  border: 1px solid #b1b3b5;
+  border-left: none;
+  background-color: #f8f9fa;
+  padding: 7.2px 12px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: transparent;
+}
+
+header .auth {
+  margin-left: 30rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .auth span a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #3366cc;
+}
+
+header .auth span a:hover {
+  text-decoration: underline;
+}
+
+.MuiMenu-paper{
+  box-shadow: 0 2px 6px -1px rgba(0,0,0,0.2) !important;
+}
+
+.menu-box-1 {
+  display: block;
+  background-color: #eaecf0;
+  border: 1px solid #54595d;
+  width: 150px;
+  font-size: 13px;
+  padding: 7px 9px;
+  margin: 0 15px 10px;
+}
+
+.menu-link {
+  color: rgb(51, 102, 204) !important;
+  font-size: 14px !important;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  text-decoration: underline !important;
+  background: #fff !important;
+}
+
+ .MuiDivider-root {
+  margin: 0 !important;
+}

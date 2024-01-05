@@ -1,0 +1,132 @@
+.main-container {
+  box-shadow: 0 1px #a2a9b1;
+  margin-top: 2.1rem;
+  width: 121vh;
+  margin-left: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.main-title {
+  display: flex;
+}
+
+.main-title h1 {
+  font-family: "Linux Libertine", Georgia, Times, "Source Serif Pro", serif;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 40px;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background: #fff !important;
+}
+
+input[type="search"] {
+  font-size: 1rem;
+}
+
+.worldwide {
+  font-weight: 700 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: "14px" !important;
+  color: #54595d !important;
+  cursor: default !important;
+}
+
+.main-content-menu-title {
+  font-weight: bold !important;
+  font-size: 0.875rem !important;
+}
+
+.main-content-nav-tags {
+  margin-left: 18rem;
+  margin-top: 1rem;
+  width: 121vh;
+}
+
+.main-content-nav-tags nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #3366cc;
+  box-shadow: 0 1px #a2a9b1;
+}
+
+.main-content-nav-tags nav .nav1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-content-nav-tags nav span {
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.main-content-nav-tags nav span.active {
+  border-bottom: 2.2px solid #000;
+  color: #000;
+  pointer-events: none;
+}
+
+.main-content-nav-tags nav span:hover {
+  padding-bottom: 0.4rem;
+  border-bottom: 2.2px solid #4771c5;
+}
+
+.main-content-nav-tags nav .nav2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-content-tools-menu {
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.main-content-nav-tags nav .nav2 .tools {
+  border: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 0.5rem;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.detailPara {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.supLink {
+  color: #4469b5;
+  cursor: pointer;
+}
+
+.bioData .bioDataTitle {
+  font-weight: 700;
+}
+
+.bioData .bioDataLink {
+  color: #3366cc;
+  cursor: pointer;
+}
+
+.bioData .bioDataLink:hover{
+  text-decoration: underline;
+}

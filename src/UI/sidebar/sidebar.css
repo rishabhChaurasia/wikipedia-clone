@@ -1,0 +1,47 @@
+.sidebar-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3366cc;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  text-decoration: underline;
+}
+
+.sidebar-hide-button {
+  background-color: #eaecf0;
+  font-weight: 100;
+  font-size: 0.75rem;
+  color: #202122;
+  padding: 4px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.sidebar-hide-button:hover{
+  background-color: #fff;
+}
+
+.sidebar .css-10hburv-MuiTypography-root {
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 0;
+  margin-right: 20px !important;
+}
+
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background: #fff;
+}
+
+.sidebar .css-tlelie-MuiListItemText-root {
+  margin-left: -36px;
+}
+
+.sidebar svg {
+  font-size: 1.2rem;
+}
+
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+  padding-bottom: 0 !important;
+}
